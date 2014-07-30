@@ -8,6 +8,10 @@
         <servlet-name>IMGGetController</servlet-name>
         <servlet-class>ua.cviewer.base.IMGGetController</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>DialogController</servlet-name>
+        <servlet-class>ua.cviewer.controllers.DialogController</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>IMGController</servlet-name>
         <url-pattern>/IMGController</url-pattern>
@@ -15,6 +19,10 @@
     <servlet-mapping>
         <servlet-name>IMGGetController</servlet-name>
         <url-pattern>/IMGGetController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DialogController</servlet-name>
+        <url-pattern>/DialogController</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
